@@ -1,0 +1,32 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	background-color: beige;
+	padding: 50px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+#Dogbutton {
+	padding: 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: blue;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+}
+#Dogbutton:hover {
+	background-color: blueviolet;
+}
+#DogImage {
+	border-radius: 12px;
+	border: 5px solid blue;
+	box-shadow: 10px 10px 5px 6px rgba(0, 0, 0, 0.2);
+}
+footer {
+	color: grey;
+	font-family: 'Roboto', sans-serif;
+}
