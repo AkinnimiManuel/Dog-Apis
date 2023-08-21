@@ -1,7 +1,7 @@
 const DogIMage = document.getElementById('DogImage');
 const DogButton = document.getElementById('Dogbutton');
 
-const FecthFog = () => {
+const FecthDog = () => {
 	fetch('https://dog.ceo/api/breeds/image/random')
 		.then((response) => response.json())
 		.then((json) => {
@@ -9,7 +9,7 @@ const FecthFog = () => {
 		});
 };
 
-FecthFog();
+FecthDog();
 DogButton.onclick = () => {
 	FecthFog();
 };
