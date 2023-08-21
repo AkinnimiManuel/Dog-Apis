@@ -11,5 +11,5 @@ const FecthDog = () => {
 
 FecthDog();
 DogButton.onclick = () => {
-	FecthFog();
+	FecthDog();
 };
