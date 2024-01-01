@@ -11,15 +11,18 @@ body {
 	align-items: center;
 }
 #Dogbutton {
-	padding: 10px;
+	color: white;
+	padding: 15px;
 	margin-top: 20px;
 	margin-bottom: 20px;
 	background-color: blue;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 400;
+	border-radius: 10px;
 }
 #Dogbutton:hover {
 	background-color: blueviolet;
+	color: white;
 }
 #DogImage {
 	border-radius: 12px;
